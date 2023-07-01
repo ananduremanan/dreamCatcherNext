@@ -1,28 +1,49 @@
 import Head from 'next/head';
+import Image from 'next/image';
+import room from './assets/images/room.jpg';
 
 export default function Home() {
   return (
     <div>
       <main>
-        <div className="bg-gray-800 w-screen h-screen flex justify-center items-center overflow-hidden">
-          <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-            <div>
-              <img
-                src="https://1drv.ms/i/s!ArgY4Srt5Mp3iSxVcW6H-gYjEqzv?e=2JyEUf"
-                alt="dreamCatcher"
-              />
+        <div className="h-screen bg-gray-800 p-4">
+          <div className="text-white text-lg">Heading</div>
+          <div className="grid grid-cols-1 gap-4 bg-gray-800 md:grid-cols-4">
+            <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
+              <Image src={room} alt="fox" />
+              <div className="m-4">
+                <p className="font-bold text-gray-500">The Cunning</p>
+                <p className="text-sm font-light text-gray-400">
+                  Image taken from Sony Website.
+                </p>
+              </div>
             </div>
-            <div>
-              <img
-                src="https://1drv.ms/i/s!ArgY4Srt5Mp3iSxVcW6H-gYjEqzv?e=2JyEUf"
-                alt="dreamCatcher"
-              />
+            <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
+              <Image src={room} alt="fox" />
+              <div className="m-4">
+                <p className="font-bold text-gray-500">The Mighty King</p>
+                <p className="text-sm font-light text-gray-400">
+                  Image taken from Sony Website.
+                </p>
+              </div>
             </div>
-            <div>
-              <img
-                src="https://1drv.ms/i/s!ArgY4Srt5Mp3iSxVcW6H-gYjEqzv?e=2JyEUf"
-                alt="dreamCatcher"
-              />
+            <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
+              <Image src={room} alt="fox" />
+              <div className="m-4">
+                <p className="font-bold text-gray-500">The Lightning</p>
+                <p className="text-sm font-light text-gray-400">
+                  Image taken from Sony Website.
+                </p>
+              </div>
+            </div>
+            <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
+              <Image src={room} alt="fox" />
+              <div className="m-4">
+                <p className="font-bold text-gray-500">The Beauty</p>
+                <p className="text-sm font-light text-gray-400">
+                  Image taken from Sony Website.
+                </p>
+              </div>
             </div>
           </div>
         </div>
