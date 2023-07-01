@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <div>
       <main>
-        <div className="bg-gray-800 p-4 md:h-screen lg:px-40 lg:h-screen">
+        <div className="bg-gray-800 p-4 mmd:min-h-screen lg:px-40 lg:min-h-screen">
           <Nav />
-          <div className="text-white font-light">
+          <div className="text-white font-light mt-8 text-center">
             The Ai Generated Images from the Short
           </div>
-          <hr className="m-3" />
+          <hr className="m-3 opacity-10" />
           <Gallery />
         </div>
       </main>
