@@ -10,7 +10,7 @@ export default function Home() {
           <Nav />
           <div className="grid grid-cols-1 gap-4 bg-gray-800 md:grid-cols-2 lg:grid-cols-4">
             <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
-              <Image
+              <img
                 src="https://cdn.jsdelivr.net/gh/ananduremanan/dreamCatcherNext@main/pages/assets/images/OIG%20(1)%201.jpg"
                 alt="fox"
               />
@@ -22,7 +22,7 @@ export default function Home() {
               </div>
             </div>
             <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
-              <Image
+              <img
                 src="https://cdn.jsdelivr.net/gh/ananduremanan/dreamCatcherNext@main/pages/assets/images/OIG%20(1).jpg"
                 alt="fox"
               />
