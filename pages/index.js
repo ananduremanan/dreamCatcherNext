@@ -1,7 +1,5 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import room from './assets/images/room.jpg';
-import dreamCatcher from './assets/images/dreamcatcher.jpg';
 import Nav from './components/Nav';
 
 export default function Home() {
@@ -12,7 +10,10 @@ export default function Home() {
           <Nav />
           <div className="grid grid-cols-1 gap-4 bg-gray-800 md:grid-cols-2 lg:grid-cols-4">
             <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
-              <Image src="https://1drv.ms/i/s!ArgY4Srt5Mp3iS7cYXxznvN-uxYF?e=ox6h2Z" alt="fox" />
+              <Image
+                src="https://1drv.ms/i/s!ArgY4Srt5Mp3iS7cYXxznvN-uxYF?e=ox6h2Z"
+                alt="fox"
+              />
               <div className="m-4">
                 <p className="font-bold text-gray-500">The Room</p>
                 <p className="text-sm font-light text-gray-400">
@@ -21,7 +22,10 @@ export default function Home() {
               </div>
             </div>
             <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
-              <Image src="https://1drv.ms/i/s!ArgY4Srt5Mp3iS7cYXxznvN-uxYF?e=ox6h2Z" alt="fox" />
+              <Image
+                src="https://1drv.ms/i/s!ArgY4Srt5Mp3iS7cYXxznvN-uxYF?e=ox6h2Z"
+                alt="fox"
+              />
               <div className="m-4">
                 <p className="font-bold text-gray-500">The Dream Catcher</p>
                 <p className="text-sm font-light text-gray-400">
@@ -30,7 +34,10 @@ export default function Home() {
               </div>
             </div>
             <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
-              <Image src="https://1drv.ms/i/s!ArgY4Srt5Mp3iS7cYXxznvN-uxYF?e=ox6h2Z" alt="fox" />
+              <Image
+                src="https://1drv.ms/i/s!ArgY4Srt5Mp3iS7cYXxznvN-uxYF?e=ox6h2Z"
+                alt="fox"
+              />
               <div className="m-4">
                 <p className="font-bold text-gray-500">The Lightning</p>
                 <p className="text-sm font-light text-gray-400">
@@ -39,7 +46,10 @@ export default function Home() {
               </div>
             </div>
             <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
-              <Image src="https://1drv.ms/i/s!ArgY4Srt5Mp3iS7cYXxznvN-uxYF?e=ox6h2Z" alt="fox" />
+              <Image
+                src="https://1drv.ms/i/s!ArgY4Srt5Mp3iS7cYXxznvN-uxYF?e=ox6h2Z"
+                alt="fox"
+              />
               <div className="m-4">
                 <p className="font-bold text-gray-500">The Beauty</p>
                 <p className="text-sm font-light text-gray-400">
