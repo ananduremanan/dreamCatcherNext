@@ -11,7 +11,7 @@ export default function Home() {
           <div className="grid grid-cols-1 gap-4 bg-gray-800 md:grid-cols-2 lg:grid-cols-4">
             <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
               <Image
-                src="https://1drv.ms/i/s!ArgY4Srt5Mp3iS7cYXxznvN-uxYF?e=ox6h2Z"
+                src="https://cdn.jsdelivr.net/gh/ananduremanan/dreamCatcherNext@main/pages/assets/images/OIG%20(1)%201.jpg"
                 alt="fox"
               />
               <div className="m-4">
@@ -23,7 +23,7 @@ export default function Home() {
             </div>
             <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
               <Image
-                src="https://1drv.ms/i/s!ArgY4Srt5Mp3iS7cYXxznvN-uxYF?e=ox6h2Z"
+                src="https://cdn.jsdelivr.net/gh/ananduremanan/dreamCatcherNext@main/pages/assets/images/OIG%20(1).jpg"
                 alt="fox"
               />
               <div className="m-4">
