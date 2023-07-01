@@ -49,7 +49,7 @@ export default function Gallery() {
                 </p>
               </div>
             </div>
-            <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
+            {/* <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
               <img
                 src="https://stackblitz.com/files/stackblitz-starters-vt4zdd/github/ananduremanan/dreamCatcherNext/main/pages/assets/images/car_accident.jpg"
                 alt="fox"
@@ -60,7 +60,7 @@ export default function Gallery() {
                   Image Generated with Dall-E 2.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
   )
 }
