@@ -12,6 +12,18 @@ export default function Home() {
                 alt="dreamCatcher"
               />
             </div>
+            <div>
+              <img
+                src="https://1drv.ms/i/s!ArgY4Srt5Mp3iSxVcW6H-gYjEqzv?e=2JyEUf"
+                alt="dreamCatcher"
+              />
+            </div>
+            <div>
+              <img
+                src="https://1drv.ms/i/s!ArgY4Srt5Mp3iSxVcW6H-gYjEqzv?e=2JyEUf"
+                alt="dreamCatcher"
+              />
+            </div>
           </div>
         </div>
       </main>
