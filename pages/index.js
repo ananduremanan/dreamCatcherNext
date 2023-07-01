@@ -35,26 +35,37 @@ export default function Home() {
             </div>
             <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
               <img
-                src="https://1drv.ms/i/s!ArgY4Srt5Mp3iS7cYXxznvN-uxYF?e=ox6h2Z"
-                width="120"
+                src="https://cdn.jsdelivr.net/gh/ananduremanan/dreamCatcherNext@main/pages/assets/images/OIG.jpg"
                 alt="fox"
               />
               <div className="m-4">
-                <p className="font-bold text-gray-500">The Lightning</p>
+                <p className="font-bold text-gray-500">The Catcher</p>
                 <p className="text-sm font-light text-gray-400">
-                  Image taken from Sony Website.
+                  Who's he? Where is he from? No one knows!.
                 </p>
               </div>
             </div>
             <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
               <img
-                src="https://1drv.ms/i/s!ArgY4Srt5Mp3iS7cYXxznvN-uxYF?e=ox6h2Z"
+                src="https://cdn.jsdelivr.net/gh/ananduremanan/dreamCatcherNext@main/pages/assets/images/OIG._gqO.jpg"
                 alt="fox"
               />
               <div className="m-4">
-                <p className="font-bold text-gray-500">The Beauty</p>
+                <p className="font-bold text-gray-500">The Room In a different angle</p>
                 <p className="text-sm font-light text-gray-400">
-                  Image taken from Sony Website.
+                  Image Generated with Dall-E 2.
+                </p>
+              </div>
+            </div>
+            <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
+              <img
+                src="https://stackblitz.com/files/stackblitz-starters-vt4zdd/github/ananduremanan/dreamCatcherNext/main/pages/assets/images/car_accident.jpg"
+                alt="fox"
+              />
+              <div className="m-4">
+                <p className="font-bold text-gray-500">The Accident</p>
+                <p className="text-sm font-light text-gray-400">
+                  Image Generated with Dall-E 2.
                 </p>
               </div>
             </div>
