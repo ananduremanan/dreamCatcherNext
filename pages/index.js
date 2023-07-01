@@ -9,6 +9,10 @@ export default function Home() {
       <main>
         <div className="bg-gray-800 p-4 md:h-screen lg:px-40 lg:h-screen">
           <Nav />
+          <div className="text-white font-light">
+            The Ai Generated Images from the Short
+          </div>
+          <hr className="m-3" />
           <Gallery />
         </div>
       </main>
