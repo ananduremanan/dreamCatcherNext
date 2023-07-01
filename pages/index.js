@@ -12,6 +12,7 @@ export default function Home() {
             <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
               <img
                 src="https://cdn.jsdelivr.net/gh/ananduremanan/dreamCatcherNext@main/pages/assets/images/OIG%20(1)%201.jpg"
+                width="auto"
                 alt="fox"
               />
               <div className="m-4">
@@ -24,6 +25,7 @@ export default function Home() {
             <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
               <img
                 src="https://cdn.jsdelivr.net/gh/ananduremanan/dreamCatcherNext@main/pages/assets/images/OIG%20(1).jpg"
+                width="auto"
                 alt="fox"
               />
               <div className="m-4">
@@ -34,8 +36,9 @@ export default function Home() {
               </div>
             </div>
             <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
-              <Image
+              <img
                 src="https://1drv.ms/i/s!ArgY4Srt5Mp3iS7cYXxznvN-uxYF?e=ox6h2Z"
+                width="120"
                 alt="fox"
               />
               <div className="m-4">
@@ -46,8 +49,9 @@ export default function Home() {
               </div>
             </div>
             <div className="cursor-pointer overflow-hidden rounded-lg bg-white shadow-md hover:shadow-lg">
-              <Image
+              <img
                 src="https://1drv.ms/i/s!ArgY4Srt5Mp3iS7cYXxznvN-uxYF?e=ox6h2Z"
+                width="120"
                 alt="fox"
               />
               <div className="m-4">
