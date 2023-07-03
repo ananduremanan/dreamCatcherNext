@@ -1,4 +1,4 @@
-export function Modal({ isOpen, onClose, imgSrc, onNext, onPrev }) {
+export default function Modal({ isOpen, onClose, imgSrc, onNext, onPrev }) {
   if (!isOpen) return null;
 
   return (

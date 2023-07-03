@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import img_url from '../data/imageUrl.json';
-import { Modal } from './gallery-modal/Modal';
+import Modal from './gallery-modal/Modal';
 
 export default function Gallery() {
   const [selectedImg, setSelectedImg] = useState(null);
